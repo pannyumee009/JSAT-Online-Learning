@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Fredoka+One&family=Nunito+Sans:ital@1&family=Signika:wght@300&family=Zen+Antique+Soft&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: #6D8299;
+} 
+
+.mt-10{
+    padding-top: 10px;
+  }
+
+  .navbar-brand{
+    font-family: 'Signika', sans-serif;
+    color: #cccccc;
+  }
+
+  .nav-link{
+      color: #F3D5C0;
+      float: right!important;
+      text-align: left!important;
+  }
+
+  .nav-link:hover{
+      color: #C6D57E;
+  }
+
+  .fa-bars{
+     font-size: 30px;
+     color: #F3D5C0;
+  }
+
+.navbar-toggler{
+    outline: none;   
+}
+
+.home-main{
+    background-color: #F3D5C060;
+    color:#334756;
+    width: 100%;
+}
+
+.home-sec{
+    height: 100vh;
+    padding: 200px 0px 0px 80px;
+}
+
+.great-place{
+    width: 350px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    color:#334756;
+}
+
+.better-tmr{
+    width: 200px;
+    padding: 15px 0px 0px 0px;
+}
+
+.book{
+    font-weight: bold;
+}
+
+.edu_img{
+    width: 400px;
+    padding: 120px 0px 0px 0px;
+}
+
+.bton{
+    color: #EAE7C6;
+}
+
+.pb-3{
+    font-family: 'Fredoka One', cursive;
+    color: #334756;
+}
+
+.live_learning{
+    width: 60px;
+}
+
+.feature,.lead{
+    font-family: 'Zen Antique Soft', serif;
+}
+
+.mb{
+    margin-bottom: 80px;
+}
+
+.experience{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.trast{
+    width: 45%;
+    padding: 30px 0px 0px 100px;
+}
+
+.best{
+    font-family: 'Fredoka One', cursive;
+    padding-bottom: 15px;
+    color: #334756;
+}
+
+.p{
+    line-height: 1.8rem;
+    padding-bottom: 5px;
+}
+
+#about{
+    background-color: #C8E3D440 ;
+    padding: 50px 0px 80px 0px;
+}
+
+.link{
+    text-align: right;
+    padding: 100px 100px 0px 0px;
+}
+
+a{
+    color: #334756;
+}
+
+a:hover{
+    color: #C6D57E;
+}
+
+.card_link{
+    opacity: 0.7;
+}
+
+.card_link:hover{
+    width: 21rem;;
+}
+
+.dollar{
+    font-family: 'Fredoka One', cursive;
+}
+
+.fa-calendar{
+    padding:0px 10px 0px;
+}
+
+.fa-shopping-bag{
+    padding: 0px 10px 0px 70px;
+}
+
+.contact{
+    background-color: #F3D5C030;
+}
+
+.email{
+    width:900px;
+    margin-left: 142px;
+    padding: 0px 0px 0px 80px;
+}
+
+.address{
+    background-color: #506D84;
+    padding: 20px 0px 0px 50px;
+}
+
+h1{
+    font-family: 'Cabin', sans-serif;
+    color: #C68B59;
+}
+
+.color{
+    color: #F7F6F2;
+}
+
+.pb-2{
+    color: #93B5C6;
+}
