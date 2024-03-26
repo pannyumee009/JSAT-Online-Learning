@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comfortaa&family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lobster&family=Ubuntu&display=swap');
+
+.intro{
+    background-color: #FDD2BF80;
+    position: absolute;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    padding: 20px 0px;
+}
+
+body{
+    background-color: #BD1616;
+    margin: 0;
+    width: 100%;
+}
+
+.img{
+    position: relative;
+    margin: 0;
+    background-position: center;
+    width: 100%;
+    z-index: -1;
+    background-size: cover;
+    height: 100vh;
+    width: 75%;
+} 
+
+.review,.quotes{
+    position: absolute;
+}
+
+.review{
+    margin: 150px 0px 0px 700px;
+    text-align: left;
+}
+
+/* .quotes {
+    margin: 330px 0px 0px 780px;
+    width: 300px;
+    border: 1px solid;
+    border-color: #FCD2D1;
+    background-color: #FFF6CD80;
+    border-radius: 10px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+} */
+
+span{
+    padding: 20px 0px;
+    text-align: center;
+    margin: 15px 10px 15px 20px;
+}
+
+.greeting{
+    font-family: 'Architects Daughter', cursive;;
+    font-size: 40px;
+    
+}
+
+.talk{
+    font-size: 20px;
+    padding: 0px;
+}
+
+/* .box{
+    border: solid 1px;
+    border-color: #FEF9EF;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: black;
+} */
+/* .box:hover{
+    border: solid 1px;
+    border: solid 1px;
+    border-color: black;
+    padding: 10px 20px;
+    border-radius: 7px; 
+    color: white;
+} */
+
+.box{
+    border: solid 1px;
+    border-color: #E5DCC3;
+    padding: 6px 20px;
+    border-radius: 7px;
+    color: black;
+    text-decoration: none;
+}
+
+.box:hover{
+    border: solid 1px;
+    border-color: black;
+    padding: 10px 20px;
+    border-radius: 7px; 
+    color: #EAE7C6;
+    font-size: 15px;
+}
+
+/* .sign{
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+} */
+
+.actor{
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    padding-left: 15px;
+    font-size: 13px;
+}
+
+.name{
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 5px 0px 0px 10px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.link1, .link2,.link3{
+    position: absolute;
+}
+
+.link1{
+    margin: 0px 50px 0px 580px;
+    width: 3%;
+}
+
+.link2{
+    margin: 5px 0px 0px 615px;
+    width: 2%;
+}
+
+.link3{
+    width: 2%;
+    margin: 5px 0px 0px 645px;
+}
+

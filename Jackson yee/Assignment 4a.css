@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro&family=Asap:wght@500&family=Fira+Sans:ital,wght@1,700&family=Londrina+Solid:wght@300&family=Patrick+Hand&family=Quicksand:wght@500&display=swap");
+
+.intro {
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    padding: 20px 0px;
+    background-color: #ff6b6b;
+}
+
+.box {
+    padding: 6px 20px;
+    border: solid 1px;
+    color: black;
+    text-decoration: none;
+    border-color: #252522;
+    border-radius: 7px;
+}
+
+.box:hover {
+    padding: 10px 20px;
+    border: solid 1px;
+    color: #eae7c6;
+    font-size: 15px;
+    border-color: black;
+    border-radius: 7px;
+}
+
+.link1,
+.link2,
+.link3 {
+    position: absolute;
+}
+
+.link1 {
+    width: 3%;
+    margin: 0px 50px 0px 580px;
+}
+
+.link2 {
+    width: 2%;
+    margin: 5px 0px 0px 615px;
+}
+
+.link3 {
+    width: 2%;
+    margin: 5px 0px 0px 645px;
+}
+
+span {
+    margin: 15px 10px 15px 20px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+body {
+    position: relative;
+    width: fit-content;
+    margin: 0;
+    background-color: #ffe6e6;
+}
+
+.name {
+    position: absolute;
+    z-index: -1;
+    margin: 155px 0px 0px 20px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 50px;
+}
+
+.img {
+    position: absolute;
+    z-index: -1;
+    margin: 232px 0px 0px 10px;
+}
+
+.text-container {
+    line-height: 2;
+    padding: 150px 0px 0px 350px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.wikipedia:hover {
+    color: #a2cdcd;
+}
+
+.detail {
+    line-height: 2;
+    padding: 0px 0px 0px 350px;
+    font-family: "Andada Pro", serif;
+}
+
+.quotes {
+    width: 300px;
+    margin: 2% 0px 2% 30%;
+    padding: 10px 100px 0px;
+    border: 1px solid;
+    background-color: #fff6cd80;
+    font-family: "ZCOOL KuaiLe", cursive;
+    border-color: #fcd2d1;
+    border-radius: 10px;
+}
+
+.sign {
+    font-family: "Sacramento", cursive;
+    font-size: 30px;
+}
+
+.hr {
+    width: 4%;
+    margin: 100px auto;
+    border: dotted silver 6px;
+    border-bottom: none;
+}
+
+.bottom-container {
+    padding: 20px 0px 10px 0px;
+    background-color: #a2cdcd;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+h3 {
+    font-family: "Patrick Hand", cursive;
+    font-size: 23px;
+}
+
+h1 {
+    font-family: "Asap", sans-serif;
+    font-size: 50px;
+}
+
+.work {
+    width: 50%;
+    line-height: 3;
+    margin: auto;
+    text-align: center;
+}
+
+.popcorn {
+    float: left;
+    width: 25%;
+    margin: 25px 0px 50px 0px;
+}
+
+.guitar {
+    float: right;
+    width: 25%;
+    margin: 0px 30px 20px 10px;
+}
+
+.movies,
+.songs {
+    font-family: "Londrina Solid", cursive;
+    text-decoration: none;
+}
+
+.movies {
+    font-size: 30px;
+    text-align: left;
+}
+
+.songs {
+    font-size: 30px;
+    text-align: right;
+}
+
+.movies:hover,
+.songs:hover {
+    color: #a2cdcd;
+}
+
+.btn {
+    display: inline-block;
+    width: 102px;
+    height: 0;
+    line-height: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: outset #ddbebe 0;
+    background: #d1e8e4;
+    background-image: -webkit-linear-gradient(top, #d1e8e4, #1e62d0);
+    background-image: -moz-linear-gradient(top, #d1e8e4, #1e62d0);
+    background-image: -ms-linear-gradient(top, #d1e8e4, #1e62d0);
+    background-image: -o-linear-gradient(top, #d1e8e4, #1e62d0);
+    background-image: -webkit-gradient(to bottom, #d1e8e4, #1e62d0);
+    color: #eae7c6;
+    font-family: Trebuchet MS;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    text-shadow: 3px 4px 49px #ddbebe;
+}
+
+.btn:hover {
+    border: solid #b8c9e2 0;
+    background: #cfdaec;
+    background-image: -webkit-linear-gradient(top, #cfdaec, #c37b89);
+    background-image: -moz-linear-gradient(top, #cfdaec, #c37b89);
+    background-image: -ms-linear-gradient(top, #cfdaec, #c37b89);
+    background-image: -o-linear-gradient(top, #cfdaec, #c37b89);
+    background-image: -webkit-gradient(to bottom, #cfdaec, #c37b89);
+    color: #8e0505;
+    text-decoration: none;
+    -webkit-border-radius: 53px;
+    -moz-border-radius: 53px;
+    border-radius: 53px;
+}
+
+.star {
+    font-size: 70px;
+    text-align: center;
+}
+
+.footer-link {
+    margin: 10px 20px;
+    margin-top: 20px;
+    color: #fcd2d1;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #6d8299;
+}
