@@ -1,1 +1,1 @@
-# JSAT-Online-Learning
+HTML and CSS projects for practicing.
